@@ -1,0 +1,57 @@
+body {
+	font-family: "Arial", sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1200px;
+}
+
+header {
+	background-color: #64E6BE;
+	overflow: auto;
+	border: solid 5px #343A40;
+	border-radius: 5px;
+}
+
+.buttonsSentLeft {
+	float: left;
+}
+
+.contactAnchors {
+	list-style-type: none;
+}
+
+.contactAnchorsStyling {
+	font-weight: 900;
+	text-decoration: none;
+	font-family: "Courier New", serif;
+	color: #343A40;
+ }
+ 
+ .contactAnchorsStyling:hover {
+ 	text-decoration-line: underline;
+ 	/*text-shadow: 1px 1px;*/
+ 	font-family: "Courier New", serif;
+ 	color: #343A40;
+}
+
+.socialMediaButtons {
+	font-size: 25px;
+	margin-left: 39px;
+	margin-bottom: 15px;
+	color: #343A40;
+}
+
+.myName {
+	font-family: "Courier New", serif;
+	color: #343A40;
+	float: right;
+	margin-right: 39px;
+	margin-top: 55px;
+}
+
+/* 
+#16AABF -blue
+#097285 -darkerblue
+#097F5C -darkgreen
+#495057 -darkgrey
+*/
