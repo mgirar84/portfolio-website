@@ -24,6 +24,7 @@ header {
  }
 
 .email {
+	font-weight: 900;
 	text-decoration: none;
 	font-family: "Courier New", serif;
 	color: #343A40;
@@ -31,11 +32,13 @@ header {
 
 .email:hover {
 	text-decoration-line: underline;
+	/*text-shadow: 1px 1px;*/
 	font-family: "Courier New", serif;
 	color: #343A40;
 }
 
 .number {
+	font-weight: 900;
 	text-decoration: none;
 	font-family: "Courier New", serif;
 	color: #343A40;
@@ -43,30 +46,16 @@ header {
 
 .number:hover {
 	text-decoration-line: underline;
+	/*text-shadow: 1px 1px;*/
 	font-family: "Courier New", serif;
 	color: #343A40;
-	
 }
 
 .socialMediaButtons {
+	font-size: 25px;
 	margin-left: 39px;
 	margin-bottom: 15px;
-}
-
-
-.fa-LinkedIn {
-  background: #007bb5;
-  color: #FFFFFF;
-}
-  
-.fa-Instagram {
-  background: #125688;
-  color: #FFFFFF;
-}
-
-.fa-Twitter {
-  background: #55ACEE;
-  color: #FFFFFF;
+	color: #343A40;
 }
 
 
