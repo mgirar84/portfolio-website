@@ -9,9 +9,9 @@ body {
 
 
 header {
-	background-color: #708090;
+	background-color: #64E6BE;
 	overflow: auto;
-	border: solid 2px #2F4F4F;
+	border: solid 5px #343A40;
 	border-radius: 5px;
 }
 
@@ -25,10 +25,27 @@ header {
 
 .email {
 	text-decoration: none;
+	font-family: "Courier New", serif;
+	color: #343A40;
+}
+
+.email:hover {
+	text-decoration-line: underline;
+	font-family: "Courier New", serif;
+	color: #343A40;
 }
 
 .number {
 	text-decoration: none;
+	font-family: "Courier New", serif;
+	color: #343A40;
+}
+
+.number:hover {
+	text-decoration-line: underline;
+	font-family: "Courier New", serif;
+	color: #343A40;
+	
 }
 
 .socialMediaButtons {
@@ -55,8 +72,10 @@ header {
 
 .myName {
 	font-family: "Courier New", serif;
+	color: #343A40;
 	float: right;
 	margin-right: 39px;
-	margin-top: 60px;
+	margin-top: 55px;
 }
 
+/* #16AABF -blue
