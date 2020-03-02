@@ -12,12 +12,19 @@ header {
 	border-radius: 5px;
 }
 
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1125px;
+}
+
 .buttonsSentLeft {
 	float: left;
 }
 
 .contactAnchors {
 	list-style-type: none;
+	padding: 0;
 }
 
 .contactAnchorsStyling {
@@ -32,21 +39,46 @@ header {
  	/*text-shadow: 1px 1px;*/
  	font-family: "Courier New", serif;
  	color: #343A40;
+	cursor: pointer;
 }
 
 .socialMediaButtons {
 	font-size: 25px;
-	margin-left: 39px;
 	margin-bottom: 15px;
 	color: #343A40;
+}
+
+.socialMediaButtons:hover {
+	color: #CCCCCC;
+	cursor: pointer;
 }
 
 .myName {
 	font-family: "Courier New", serif;
 	color: #343A40;
 	float: right;
-	margin-right: 39px;
 	margin-top: 55px;
+}
+
+.aboutMeText1 {
+	background-color: #64E6BE;
+	overflow: auto;
+	border: solid 5px #343A40;
+	border-radius: 5px;
+}
+	
+.aboutMeText2 {
+	background-color: #64E6BE;
+	overflow: auto;
+	border: solid 5px #343A40;
+	border-radius: 5px;
+}
+			
+.aboutMeText3 {
+	background-color: #64E6BE;
+	overflow: auto;
+	border: solid 5px #343A40;
+	border-radius: 5px;
 }
 
 /* 
