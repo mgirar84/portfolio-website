@@ -17,40 +17,46 @@ header {
 
 .buttonsSentLeft {
 	float: left;
-	margin-left: 20px;
-	margin-top: 20px;
-	
 }
 
+.contactAnchors {
+	list-style-type: none;
+ }
+
 .email {
-	float: left;
-	display: inline-block;
+	text-decoration: none;
 }
 
 .number {
-	float: left;
-	display: inline-block;
+	text-decoration: none;
 }
+
+.socialMediaButtons {
+	margin-left: 39px;
+	margin-bottom: 15px;
+}
+
 
 .fa-LinkedIn {
   background: #007bb5;
-  color: white;
+  color: #FFFFFF;
 }
   
 .fa-Instagram {
   background: #125688;
-  color: white;
+  color: #FFFFFF;
 }
 
 .fa-Twitter {
   background: #55ACEE;
-  color: white;
+  color: #FFFFFF;
 }
 
 
 .myName {
 	font-family: "Courier New", serif;
 	float: right;
-	margin-right: 20px;
+	margin-right: 39px;
+	margin-top: 60px;
 }
 
