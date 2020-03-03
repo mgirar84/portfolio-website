@@ -34,7 +34,6 @@ header {
 .contactAnchorsStyling {
 	font-weight: 900;
 	text-decoration: none;
-	font-family: "Courier New", serif;
 	color: #343A40;
  }
  
@@ -90,6 +89,34 @@ h2 {
 	text-align: justify;
 }
 	
+.projectButtonsContainer {
+	margin-top: 25px;
+}
+
+.projectButtons {
+	margin: 10px;
+	padding: 100px 122px;
+	background-color: #5C7CFA;
+	border: solid 5px #343A40;
+	border-radius: 5px;
+}
+
+.projectButtons:hover {
+	cursor: pointer;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.pressHereAnchor{
+	font-weight: 900;
+	text-decoration: none;
+	color: #343A40;
+	padding-top: 25px;
+	padding-left: 46%;
+}
+
+.pressHereAnchor:hover {
+ 	text-decoration-line: underline;
+	cursor: pointer;
 /* 
 Colour SAVES
 #16AABF -blue
