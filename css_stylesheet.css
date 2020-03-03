@@ -107,6 +107,41 @@ h3 {
 	background-color: #5C7CFA;
 	border: solid 5px #343A40;
 	border-radius: 5px;
+	font-size: 25px;
+	font-family: "Courier New", serif;
+	font-weight: 900px;
+}
+
+#button1 {
+	background-image: url(https://images.unsplash.com/photo-1583193628511-26907c67dae9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+}
+
+#button2 {
+	background-image: url(https://images.unsplash.com/photo-1583167611259-ccfff445b4c9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+}
+
+#button3 {
+	background-image: url(https://images.unsplash.com/photo-1583228903945-0c003a1b29be?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+}
+
+#button4 {
+	background-image: url(https://images.unsplash.com/photo-1558981806-ec527fa84c39?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+}
+
+#button5 {
+	background-image: url(https://images.unsplash.com/photo-1583183398510-07243101a1fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+}
+
+#button6 {
+	background-image: url(https://images.unsplash.com/photo-1583129794521-437167ce03a4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+}
+
+#button7 {
+	background-image: url(https://images.unsplash.com/photo-1583224874248-9d0981e894d3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+}
+
+#button8 {
+	background-image: url(https://images.unsplash.com/photo-1583221742001-9ad88bf233ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
 }
 
 .portfolioButtons:hover {
