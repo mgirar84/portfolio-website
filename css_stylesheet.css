@@ -60,7 +60,7 @@ header {
 	margin-top: 55px;
 }
 
-.paragrpahs {
+.paragraphs {
 	flex-direction: row;
 }
 
@@ -72,20 +72,6 @@ header {
 	width: 33%;
 }
 	
-.aboutMeText2 {
-	background-color: #64E6BE;
-	overflow: auto;
-	border: solid 5px #343A40;
-	border-radius: 5px;
-}
-			
-.aboutMeText3 {
-	background-color: #64E6BE;
-	overflow: auto;
-	border: solid 5px #343A40;
-	border-radius: 5px;
-}
-
 /* 
 #16AABF -blue
 #097285 -darkerblue
