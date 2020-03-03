@@ -34,7 +34,7 @@ header {
 	color: #343A40;
  }
  
- .contactAnchorsStyling:hover {
+.contactAnchorsStyling:hover {
  	text-decoration-line: underline;
  	/*text-shadow: 1px 1px;*/
  	font-family: "Courier New", serif;
@@ -60,11 +60,16 @@ header {
 	margin-top: 55px;
 }
 
-.aboutMeText1 {
+.paragrpahs {
+	flex-direction: row;
+}
+
+.aboutMeText {
 	background-color: #64E6BE;
 	overflow: auto;
 	border: solid 5px #343A40;
 	border-radius: 5px;
+	width: 33%;
 }
 	
 .aboutMeText2 {
