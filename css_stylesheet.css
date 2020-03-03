@@ -1,8 +1,10 @@
 body {
-	font-family: "Arial", sans-serif;
-	margin-left: auto;
-	margin-right: auto;
-	width: 1200px;
+	font-family: "Courier New", serif;
+	margin: auto;
+	width: 95%;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	background-color: #AEB0B2;
 }
 
 header {
@@ -10,12 +12,14 @@ header {
 	overflow: auto;
 	border: solid 5px #343A40;
 	border-radius: 5px;
+	margin: 10px;
+	min-width: 500px;
 }
 
 .container {
 	margin-left: auto;
 	margin-right: auto;
-	width: 1125px;
+	width: 95%;
 }
 
 .buttonsSentLeft {
@@ -34,7 +38,7 @@ header {
 	color: #343A40;
  }
  
- .contactAnchorsStyling:hover {
+.contactAnchorsStyling:hover {
  	text-decoration-line: underline;
  	/*text-shadow: 1px 1px;*/
  	font-family: "Courier New", serif;
@@ -60,30 +64,37 @@ header {
 	margin-top: 55px;
 }
 
-.aboutMeText1 {
-	background-color: #64E6BE;
-	overflow: auto;
-	border: solid 5px #343A40;
-	border-radius: 5px;
-}
-	
-.aboutMeText2 {
-	background-color: #64E6BE;
-	overflow: auto;
-	border: solid 5px #343A40;
-	border-radius: 5px;
-}
-			
-.aboutMeText3 {
-	background-color: #64E6BE;
-	overflow: auto;
-	border: solid 5px #343A40;
-	border-radius: 5px;
+.paragraphs {
+	display: flex;
 }
 
+h2 {
+	text-align: right;
+	padding-top: 20px;
+	color: #000000;
+}
+
+.aboutMeContent {
+	margin: 10px;
+	flex-direction: row;
+}
+
+.aboutMeText {
+	font-family: "Arial", sans-serif;
+	background-color: #16AABF;
+	color: #000000;
+	overflow: auto;
+	border: solid 5px #343A40;
+	border-radius: 5px;
+	padding: 20px 25px;
+	text-align: justify;
+}
+	
 /* 
+Colour SAVES
 #16AABF -blue
 #097285 -darkerblue
 #097F5C -darkgreen
 #495057 -darkgrey
+@media only screen and (min-width: 770px)
 */
