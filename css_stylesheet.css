@@ -2,10 +2,11 @@ body {
 	font-family: "Courier New", serif;
 	margin: 25px;
 	background-color: #AEB0B2;
+	background-image: linear-gradient(to bottom right, #097285, #097F5C)
 }
 
 header {
-	background-color: #64E6BE;
+	background-color: #B4B6B8;
 	overflow: auto;
 	border: solid 5px #343A40;
 	border-radius: 5px;
@@ -78,7 +79,7 @@ h2 {
 
 .aboutMeText {
 	font-family: "Arial", sans-serif;
-	background-color: #16AABF;
+	background-color: #B4B6B8;
 	color: #000000;
 	overflow: auto;
 	border: solid 5px #343A40;
@@ -173,8 +174,10 @@ footer {
 }
 /* 
 Colour SAVES
+##B4B6B8 -grey
+#64E6BE -green
 #16AABF -blue
-#097285 -darkerblue
+#097285 -darkblue
 #097F5C -darkgreen
 #495057 -darkgrey
 @media only screen and (min-width: 770px)
