@@ -14,10 +14,6 @@ header {
 	/*position: fixed;*/
 }
 
-.fas {
-	color: #303030;
-}
-
 .container {
 	margin-left: auto;
 	margin-right: auto;
@@ -199,6 +195,9 @@ footer {
 	color: #BF3ED6;
 }
 
+#gamepad {
+	color: #343A40;
+}
 
 /* 
 Colour SAVES
