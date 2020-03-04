@@ -9,7 +9,6 @@ header {
 	overflow: auto;
 	border-bottom: solid 3px #343A40;
 	margin: 10px;
-	min-width: 500px;
 	/*width: 100%;*/
 	/*position: fixed;*/
 }
@@ -56,7 +55,8 @@ header {
 	font-family: "Courier New", serif;
 	color: #303030;
 	float: right;
-	margin-top: 55px;
+	margin-top: 65px;
+	font-size: 1.5em;;
 }
 
 .paragraphs {
@@ -231,6 +231,7 @@ footer {
 		
 	.myName {
 		float: left;
+		margin-top: 0px;
 	}
 	
 	.pressHereAnchor {
