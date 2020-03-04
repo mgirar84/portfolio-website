@@ -2,7 +2,7 @@ body {
 	font-family: "Courier New", serif;
 	margin: 25px;
 	background-color: #AEB0B2;
-	background-image: linear-gradient(to bottom right, #CCCCCC, #779FA1)
+	background-image: linear-gradient( #097285, #0CA578)
 }
 
 header {
@@ -15,7 +15,7 @@ header {
 }
 
 .fas {
-	color: #26547C;
+	color: #303030;
 }
 
 .container {
@@ -58,7 +58,7 @@ header {
 
 .myName {
 	font-family: "Courier New", serif;
-	color: #343A40;
+	color: #303030;
 	float: right;
 	margin-top: 55px;
 }
@@ -71,7 +71,7 @@ h2 {
 	text-align: right;
 	padding-top: 20px;
 	padding-right: 25px;
-	color: #343A40;
+	color: #303030;
 }
 
 .aboutMeContent {
@@ -100,7 +100,7 @@ h3 {
 	font-size: 25px;
 	padding-left: 25px;
 	padding-top: 30px;
-	color: #343A40;
+	color: #303030;
 }	
 	
 .projectButtonsContainer {
@@ -165,7 +165,7 @@ h3 {
 }
 
 .pressHereAnchor:hover {
- 	color: #000000;
+ 	color: #303030;
 	cursor: pointer;
 }
 
