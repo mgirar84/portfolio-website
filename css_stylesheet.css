@@ -2,7 +2,7 @@ body {
 	font-family: "Courier New", serif;
 	margin: 25px;
 	background-color: #AEB0B2;
-	background-image: linear-gradient( #ADADAD, #E0E0E0)
+	background-image: linear-gradient( #ADADAD, #E0E0E0);
 }
 
 header {
@@ -198,7 +198,6 @@ footer {
 #palette {
 	color: #BF3ED6;
 }
-
 
 /* 
 Colour SAVES
