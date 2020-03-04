@@ -110,9 +110,10 @@ h3 {
 .portfolioButtons {
 	width: 24.3%;
 	flex-direction: row;
+	margin-top: 10px;
 	padding: 100px;
 	background-color: #5C7CFA;
-	border: solid 3px #343A40;
+	border: solid 1px #343A40;
 	font-size: 25px;
 	font-family: "Courier New", serif;
 	color: #FFFFFF;
@@ -159,13 +160,13 @@ h3 {
 	font-weight: 900;
 	font-size: 400%;
 	text-decoration: none;
-	color: #343A40;
+	color: #DCDCDC;
 	padding-top: 100px;
-	padding-left: 46.5%;
+	padding-left: 38.5%;
 }
 
 .pressHereAnchor:hover {
- 	color: #FFFFFF;
+ 	color: #343A40;
 	cursor: pointer;
 }
 
@@ -198,9 +199,6 @@ footer {
 	color: #BF3ED6;
 }
 
-#gamepad {
-	color: #A0D63E;
-}
 
 /* 
 Colour SAVES
