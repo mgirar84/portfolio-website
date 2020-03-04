@@ -2,14 +2,12 @@ body {
 	font-family: "Courier New", serif;
 	margin: 25px;
 	background-color: #AEB0B2;
-	background-image: linear-gradient(to bottom right, #097285, #097F5C)
+	background-image: linear-gradient(to bottom right, #CCCCCC, #779FA1)
 }
 
 header {
-	background-color: #B4B6B8;
 	overflow: auto;
-	border: solid 5px #343A40;
-	border-radius: 5px;
+	border-bottom: solid 3px #343A40;
 	margin: 10px;
 	min-width: 500px;
 	/*width: 100%;*/
@@ -39,7 +37,7 @@ header {
  
 .contactAnchorsStyling:hover {
  	font-family: "Courier New", serif;
- 	color: #CCCCCC;
+ 	color: #000000;
 	cursor: pointer;
 }
 
@@ -50,7 +48,7 @@ header {
 }
 
 .socialMediaButtons:hover {
-	color: #CCCCCC;
+	color: #000000;
 	cursor: pointer;
 }
 
@@ -69,7 +67,7 @@ h2 {
 	text-align: right;
 	padding-top: 20px;
 	padding-right: 25px;
-	color: #000000;
+	color: #343A40;
 }
 
 .aboutMeContent {
@@ -79,15 +77,18 @@ h2 {
 
 .aboutMeText {
 	font-family: "Arial", sans-serif;
-	background-color: #B4B6B8;
-	color: #000000;
+	color: #343A40;
 	overflow: auto;
-	border: solid 5px #343A40;
-	border-radius: 5px;
-	padding: 20px 25px;
+	border-bottom: solid 3px #343A40;
+	border-top: solid 3px #343A40;
+	padding: 20px 5px;
 	text-align: justify;
 	min-width: 200px;
 	/*font needs changing*/
+}
+
+.aboutMeText:hover {
+ 	color: #000000;
 }
 	
 h3 {
@@ -95,22 +96,22 @@ h3 {
 	font-size: 25px;
 	padding-left: 25px;
 	padding-top: 30px;
+	color: #343A40;
 }	
 	
 .projectButtonsContainer {
-	margin-top: 0px;
+	display: flex;
 }
 
 .portfolioButtons {
-	width: 23.4%;
-	margin: 10px;
+	width: 24.3%;
+	flex-direction: row;
 	padding: 100px;
 	background-color: #5C7CFA;
-	border: solid 5px #343A40;
-	border-radius: 5px;
+	border: solid 3px #343A40;
 	font-size: 25px;
 	font-family: "Courier New", serif;
-	font-weight: 900px;
+	color: #FFFFFF;
 }
 
 #button1 {
@@ -160,7 +161,7 @@ h3 {
 }
 
 .pressHereAnchor:hover {
- 	color: #CCCCCC;
+ 	color: #000000;
 	cursor: pointer;
 }
 
@@ -180,5 +181,11 @@ Colour SAVES
 #097285 -darkblue
 #097F5C -darkgreen
 #495057 -darkgrey
-@media only screen and (min-width: 770px)
+#FF5656 -sunset orange
+@media only screen and (max-width: 770px){
+--mobile size
+}
+@media only screen and (min-width: 770px){
+--laptop/desktop size
+}
 */
