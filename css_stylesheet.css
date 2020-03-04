@@ -2,7 +2,7 @@ body {
 	font-family: "Courier New", serif;
 	margin: 25px;
 	background-color: #AEB0B2;
-	background-image: linear-gradient( #097285, #0CA578)
+	background-image: linear-gradient( #ADADAD, #E0E0E0)
 }
 
 header {
@@ -157,26 +157,51 @@ h3 {
 
 .pressHereAnchor {
 	font-weight: 900;
-	font-size: 200%;
+	font-size: 400%;
 	text-decoration: none;
 	color: #343A40;
 	padding-top: 100px;
-	padding-left: 44%;
+	padding-left: 46.5%;
 }
 
 .pressHereAnchor:hover {
- 	color: #303030;
+ 	color: #FFFFFF;
 	cursor: pointer;
 }
 
 .anchorBar {
-	padding: 20px;
+	padding: 30px;
 }
 
 footer {
 	margin-top: 15px;
 	padding: 20px;
 }
+
+#astronaut {
+	color: #26547C;
+}
+
+#code {
+	color: #EF476F;
+}
+
+#briefcase {
+	color: #FFD166;
+}
+
+#biking {
+	color: #06D6A0;
+}
+
+#palette {
+	color: #BF3ED6;
+}
+
+#gamepad {
+	color: #A0D63E;
+}
+
 /* 
 Colour SAVES
 ##B4B6B8 -grey
