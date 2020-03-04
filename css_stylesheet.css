@@ -14,6 +14,10 @@ header {
 	/*position: fixed;*/
 }
 
+.fas {
+	color: #26547C;
+}
+
 .container {
 	margin-left: auto;
 	margin-right: auto;
