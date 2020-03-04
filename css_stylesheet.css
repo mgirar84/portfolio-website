@@ -68,6 +68,7 @@ h2 {
 	padding-top: 20px;
 	padding-right: 25px;
 	color: #303030;
+	font-size: 0.9em;
 }
 
 .aboutMeContent {
@@ -199,6 +200,40 @@ footer {
 	color: #343A40;
 }
 
+
+@media screen and (max-width: 1024px) and (min-width:770px) {
+	
+	.portfolioButtons {
+		width: 24%;
+	}		
+	
+}
+
+@media screen and (max-width: 770px) {
+
+	.portfolioButtons {
+		width: auto;
+	}		
+		
+	.paragraphs {
+		display:block
+	}
+	
+	.portfolioButtons {
+		width: 100%;
+		flex-direction: column;
+	}
+		
+	.myName {
+		float: left;
+	}
+	
+	.pressHereAnchor {
+	font-weight: 900;
+	font-size: 200%;
+	padding-left: 30.5%;
+
+}
 /* 
 Colour SAVES
 ##B4B6B8 -grey
