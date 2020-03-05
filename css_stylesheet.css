@@ -84,7 +84,6 @@ h2 {
 	border-bottom: solid 0.1em #343A40;
 	padding: 0.5em 0.25em;
 	text-align: justify;
-	/*font needs changing*/
 }
 
 .aboutMeText:hover,
@@ -124,56 +123,34 @@ h3 {
 
 #button1 {
 	background-image: url(https://images.unsplash.com/photo-1583193628511-26907c67dae9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
-	
 }
 
 #button2 {
 	background-image: url(https://images.unsplash.com/photo-1583167611259-ccfff445b4c9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
 }
 
 #button3 {
 	background-image: url(https://images.unsplash.com/photo-1583228903945-0c003a1b29be?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
 }
 
 #button4 {
 	background-image: url(https://images.unsplash.com/photo-1558981806-ec527fa84c39?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
 }
 
 #button5 {
 	background-image: url(https://images.unsplash.com/photo-1583183398510-07243101a1fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
 }
 
 #button6 {
 	background-image: url(https://images.unsplash.com/photo-1583129794521-437167ce03a4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
 }
 
 #button7 {
 	background-image: url(https://images.unsplash.com/photo-1583224874248-9d0981e894d3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
 }
 
 #button8 {
 	background-image: url(https://images.unsplash.com/photo-1583221742001-9ad88bf233ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
 }
 
 .portfolioButtons:hover, 
@@ -234,7 +211,6 @@ footer {
 	color: #343A40;
 }
 
-
 @media screen and (min-width: 1024px) {
 	
 	.portfolioButtons {
@@ -280,19 +256,3 @@ footer {
 	}
 
 }
-/* 
-Colour SAVES
-##B4B6B8 -grey
-#64E6BE -green
-#16AABF -blue
-#097285 -darkblue
-#097F5C -darkgreen
-#495057 -darkgrey
-#FF5656 -sunset orange
-@media only screen and (max-width: 770px){
---mobile size
-}
-@media only screen and (min-width: 770px){
---laptop/desktop size
-}
-*/
