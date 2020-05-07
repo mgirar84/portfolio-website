@@ -103,7 +103,7 @@ h3 {
 }
 
 .portfolioButtons {
-	box-sizing:border-box;
+	box-sizing: border-box;
 	display: inline-block;
 	margin-top: 0.4em;
 	padding: 7rem 0rem;
@@ -118,6 +118,11 @@ h3 {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+}
+
+.portTextContainer {
+	background-color: #000000;
+	padding: 1rem 0rem;
 }
 
 #button1 {
