@@ -39,14 +39,14 @@ header {
 	cursor: pointer;
 }
 
-.socialMediaButtons {
+.socialMediaButtons a{
 	font-size: 2em;
 	margin-bottom: 1em;
 	color: #343A40;
 }
 
-.socialMediaButtons:hover, 
-.socialMediaButtons:active {
+.socialMediaButtons a:hover, 
+.socialMediaButtons a:active {
 	color: #000000;
 	cursor: pointer;
 }
