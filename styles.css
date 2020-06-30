@@ -105,6 +105,11 @@ h2 {
 .aboutMeText:active {
 	color: #000000;
 }
+
+.logos {
+	font-size: 2em;
+	margin:0;
+}
 	
 h3 {
 	text-align: right;
@@ -112,7 +117,8 @@ h3 {
 	padding-left: 0.7em;
 	padding-top: 1em;
 	color: #303030;
-	margin: 0;
+	margin: 0.2em 0;
+	border-bottom: solid 0.1em #343A40;
 }	
 	
 .porfolioButtonsContainer {
@@ -127,24 +133,36 @@ h3 {
 .portfolioButtons {
 	box-sizing: border-box;
 	display: inline-block;
-	padding: 7rem 0rem;
+	padding: 0.3em;
 	border: solid 0.01em #343A40;
-	font-size: 1.5em;
 	font-family: "Courier New", serif;
 	text-align: center;
 	text-decoration: none;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	color: rgba(0, 0, 0, 0);
+	color: transparent;
+}
+
+.portTitles {
+	font-size: 1.2em;
+	margin: 0em;
 }
 
 #button1 {
 	background-image: url(screenshots/cardgame.png);
 }
 
+#button1:hover {
+	background: linear-gradient(#343a409f, #343a409f), url(screenshots/cardgame.png) no-repeat center;
+}
+
 #button2 {
 	background-image: url(screenshots/nakedmoleflats.png);
+}
+
+#button2:hover {
+	background: linear-gradient(#343a409f, #343a409f), url(screenshots/nakedmoleflats.png) no-repeat center;
 }
 
 #button3 {
@@ -175,7 +193,10 @@ h3 {
 .portfolioButtons:active {
 	cursor: pointer;
 	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-	color: rgb(255, 255, 255);
+	color: #DCDCDC;
+	text-align: left;
+	font-size: small;
+	text-align: justify;
 }
 
 .pressHereAnchor {
