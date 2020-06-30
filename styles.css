@@ -2,7 +2,7 @@ body {
 	font-family: "Courier New", serif;
 	margin: 2em auto;
 	max-width: 80em;
-	background: url(screenshots/_DSC0011-01-01\ 2.jpeg) left top, linear-gradient(#F5EBE1,  #E2DAD0);
+	background: url(screenshots/mainBackground.jpeg) left top, linear-gradient(#F5EBE1,  #E2DAD0);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
@@ -132,16 +132,21 @@ h3 {
 
 .portfolioButtons {
 	box-sizing: border-box;
-	display: inline-block;
 	padding: 0.3em;
 	border: solid 0.01em #343A40;
 	font-family: "Courier New", serif;
-	text-align: center;
-	text-decoration: none;
 	background-repeat: no-repeat;
 	background-size: 200%;
 	background-position: center;
 	color: transparent;
+	text-align: left;
+	font-size: 0.2em;
+	text-align: justify;
+}
+
+.portLinks {
+	text-decoration: transparent;
+	font-size: 0.5em;
 }
 
 .portTitles {
@@ -197,12 +202,16 @@ h3 {
 
 .portfolioButtons:hover, 
 .portfolioButtons:active {
-	cursor: pointer;
 	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 	color: #DCDCDC;
 	text-align: left;
-	font-size: small;
+	font-size: 0.2em;
 	text-align: justify;
+	transition: all 0.5s ease-in-out;
+}
+
+.portfolioButtons a:hover {
+	color: #DCDCDC;
 }
 
 .pressHereAnchor {
