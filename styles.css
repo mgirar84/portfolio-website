@@ -1,8 +1,8 @@
 body {
 	font-family: "Courier New", serif;
 	margin: 2em auto;
-	max-width: 80em;
-	background: url(screenshots/mainBackground.jpeg) left top, linear-gradient(#F5EBE1,  #E2DAD0);
+	max-width: 95%;
+	background: url(screenshots/mainBackground.jpeg) left top, linear-gradient(#F3E9DF,  #E2DAD0);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
@@ -76,9 +76,8 @@ header {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	gap: 1em;
-	max-width: 70em;
 	margin-left: 15em;
-	margin-right: 1em;
+	margin-right: 5%;
 }
 
 h2 {
