@@ -7,7 +7,7 @@ body {
 .mainContainer {
 	margin: auto;
 	width: 100%;
-	max-width: 1400px;
+	max-width: 1600px;
 }
 
 .backgroundImage {
@@ -146,17 +146,12 @@ h3 {
 	border: solid 0.01em #343A40;
 	font-family: "Courier New", serif;
 	background-repeat: no-repeat;
-	background-size: 200%;
+	background-size: 150%;
 	background-position: center;
 	color: transparent;
 	text-align: left;
 	font-size: 0.2em;
 	text-align: justify;
-}
-
-.portLinks {
-	text-decoration: transparent;
-	font-size: 0.5em;
 }
 
 .portTitles {
@@ -166,7 +161,6 @@ h3 {
 
 #button1 {
 	background-image: url(screenshots/cardgame.png);
-	background-size: 150%;
 }
 
 #button1:hover {
@@ -176,9 +170,13 @@ h3 {
 	background-size: 150%;
 }
 
+#button1:hover .portLinks a{
+	color: #DCDCDC;
+	transition: all 0.5s ease-in-out;
+}
+
 #button2 {
 	background-image: url(screenshots/nakedmoleflats.png);
-	background-size: 150%;
 }
 
 #button2:hover {
@@ -188,9 +186,13 @@ h3 {
 	background-size: 150%;
 }
 
+#button2:hover .portLinks a{
+	color: #DCDCDC;
+	transition: all 0.5s ease-in-out;
+}
+
 #button3 {
 	background-image: url(screenshots/spacex.png);
-	background-size: 150%;
 }
 
 #button3:hover {
@@ -198,6 +200,11 @@ h3 {
 		linear-gradient(#343a409f, #343a409f), 
 		url(screenshots/spacex.png) no-repeat center;
 	background-size: 150%;
+}
+
+#button3:hover .portLinks a{
+	color: #DCDCDC;
+	transition: all 0.5s ease-in-out;
 }
 
 #button4 {
@@ -231,22 +238,9 @@ h3 {
 	font-family: "Arial", sans-serif
 }
 
-.portfolioButtons a:hover {
-	color: #DCDCDC;
-}
-
-.pressHereAnchor {
-	font-weight: bold;
-	font-size: 5em;
-	text-decoration: none;
-	color: #DCDCDC;
-	width: 100%;
-}
-
-.pressHereAnchor:hover, 
-.pressHereAnchor:active {
- 	color: #343A40;
-	cursor: pointer;
+.portfolioButtons .portLinks a{
+	color: transparent;
+	font-size: 7.5em;
 }
 
 footer {
