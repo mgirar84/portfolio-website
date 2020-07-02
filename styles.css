@@ -1,10 +1,21 @@
 body {
 	font-family: "Courier New", serif;
-	margin: 2em auto;
-	max-width: 95%;
-	background: url(screenshots/mainBackground.jpeg) left top, linear-gradient(#F3E9DF,  #E2DAD0);
+	background: linear-gradient(#F3E9DF,  #E2DAD0);
+	margin: 0;
+}
+
+.mainContainer {
+	margin: auto;
+	width: 100%;
+	max-width: 1400px;
+}
+
+.backgroundImage {
+	background: url(screenshots/mainBackground.jpeg) left top;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
+	position: fixed;
+	padding: 30em 14em;
+	z-index: -1;
 }
 
 header {
@@ -43,7 +54,7 @@ header {
 	text-decoration: none;
 	color: #343A40;
 }
- 
+
 .contactAnchorsStyling:hover, 
 .contactAnchorsStyling:active {
  	font-family: "Courier New", serif;
@@ -155,28 +166,38 @@ h3 {
 
 #button1 {
 	background-image: url(screenshots/cardgame.png);
+	background-size: 150%;
 }
 
 #button1:hover {
 	background: 
 		linear-gradient(#343a409f, #343a409f), 
 		url(screenshots/cardgame.png) no-repeat center;
-	background-size: 200%;
+	background-size: 150%;
 }
 
 #button2 {
 	background-image: url(screenshots/nakedmoleflats.png);
+	background-size: 150%;
 }
 
 #button2:hover {
 	background: 
 		linear-gradient(#343a409f, #343a409f), 
 		url(screenshots/nakedmoleflats.png) no-repeat center;
-	background-size: 200%;
+	background-size: 150%;
 }
 
 #button3 {
-	background-image: url(screenshots/placeholder.jpeg);
+	background-image: url(screenshots/spacex.png);
+	background-size: 150%;
+}
+
+#button3:hover {
+	background: 
+		linear-gradient(#343a409f, #343a409f), 
+		url(screenshots/spacex.png) no-repeat center;
+	background-size: 150%;
 }
 
 #button4 {
@@ -207,6 +228,7 @@ h3 {
 	font-size: 0.2em;
 	text-align: justify;
 	transition: all 0.5s ease-in-out;
+	font-family: "Arial", sans-serif
 }
 
 .portfolioButtons a:hover {
