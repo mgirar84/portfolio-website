@@ -29,7 +29,7 @@ header {
 	margin-right: auto;
 	width: 97%;
 	display: grid;
-	grid-template-columns: 1fr 17.5em;
+	grid-template-columns: 1fr auto;
 }
 
 .container2{
