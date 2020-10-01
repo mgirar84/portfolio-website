@@ -22,6 +22,8 @@ header {
 	overflow: auto;
 	border-bottom: solid 0.2em #343A40;
 	position: relative;
+	max-width: 95%;
+	margin: auto;
 }
 
 .container {
