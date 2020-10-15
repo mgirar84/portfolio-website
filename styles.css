@@ -241,9 +241,20 @@ h3 {
 	transition: all 0.5s ease-in-out;
 }
 
-
 #button6 {
-	background-image: url(screenshots/placeholder.jpeg);
+	background-image: url(screenshots/zeroToPandas.png);
+}
+
+#button6:hover {
+	background: 
+		linear-gradient(#343a409f, #343a409f), 
+		url(screenshots/jannyWebsite.png) no-repeat center;
+	background-size: 150%;
+}
+
+#button6:hover .portLinks a{
+	color: #DCDCDC;
+	transition: all 0.5s ease-in-out;
 }
 
 #button7 {
