@@ -144,7 +144,7 @@ h3 {
 
 .portfolioButtons {
 	box-sizing: border-box;
-	padding: 0.3em;
+	padding: 0.5em;
 	border: solid 0.01em #343A40;
 	font-family: "Courier New", serif;
 	background-repeat: no-repeat;
@@ -258,11 +258,36 @@ h3 {
 }
 
 #button7 {
-	background-image: url(screenshots/placeholder.jpeg);
+	background-image: url(screenshots/zoazi.png);
 }
 
 #button8 {
-	background-image: url(screenshots/placeholder.jpeg);
+	background-image: url(screenshots/GCN+.png);
+}
+
+#button9 {
+	background-image: url(screenshots/dotcom.png);
+}
+
+#button7:hover {
+	background: 
+		linear-gradient(#343a409f, #343a409f), 
+		url(screenshots/zoazi.png) no-repeat center;
+	background-size: 150%;
+}
+
+#button8:hover {
+	background: 
+		linear-gradient(#343a409f, #343a409f), 
+		url(screenshots/GCN+.png) no-repeat center;
+	background-size: 150%;
+}
+
+#button9:hover {
+	background: 
+		linear-gradient(#343a409f, #343a409f), 
+		url(screenshots/dotcom.png) no-repeat center;
+	background-size: 150%;
 }
 
 .portfolioButtons:hover, 
